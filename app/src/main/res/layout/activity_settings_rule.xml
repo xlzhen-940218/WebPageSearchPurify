@@ -1,73 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-    <Button
-        android:id="@+id/import_rule_file_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="10sp"
-        android:layout_margin="10dp"
-        android:text="@string/import_rule_file"/>
-    <Button
-        android:id="@+id/import_rule_text_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="10sp"
-        android:layout_margin="10dp"
-        android:text="@string/import_rule_text"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="@string/domain"
-        android:textSize="14sp"
-        android:padding="10dp"/>
-    <EditText
-        android:id="@+id/domain_edit_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textWebEditText"
-        android:hint="@string/please_input_domain"
-        app:layout_constraintTop_toTopOf="parent"
-        style="@style/EditTextStyle" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="@string/search_rule"
-        android:textSize="14sp"
-        android:padding="10dp"/>
-    <EditText
-        android:id="@+id/search_regex_edit_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/please_input_search_rule"
-        app:layout_constraintTop_toTopOf="parent"
-        android:minLines="2"
-        style="@style/EditTextStyle" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="@string/content_rule"
-        android:textSize="14sp"
-        android:padding="10dp"/>
-    <EditText
-        android:id="@+id/content_rule_edit_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/please_input_content_rule"
-        app:layout_constraintTop_toTopOf="parent"
-        android:minLines="10"
-        style="@style/EditTextStyle" />
-    <Button
-        android:id="@+id/add_rules_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="@string/add_to_rules"/>
+    android:layout_height="match_parent">
 
-</LinearLayout>
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/import_rule_file_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/import_rule_file"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/import_rule_text_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/import_rule_text"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/domain"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/domain_edit_text"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/please_input_domain"
+            android:inputType="textWebEditText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/search_rule"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/search_regex_edit_text"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/please_input_search_rule"
+            android:minLines="2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/content_rule"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/content_rule_edit_text"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/please_input_content_rule"
+            android:minLines="10"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/add_rules_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/add_to_rules" />
+
+    </LinearLayout>
+</ScrollView>

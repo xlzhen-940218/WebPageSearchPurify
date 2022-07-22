@@ -1,1 +1,2 @@
 # WebPageSearchPurify
+![](test.png)

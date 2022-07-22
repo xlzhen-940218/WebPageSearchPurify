@@ -98,6 +98,8 @@ public class SettingsRuleActivity extends AppCompatActivity {
                     String content = item.getText().toString();
                     if (!TextUtils.isEmpty(content)) {
                         String[] contents = content.split("\n");
+                        if(contents.length<7)
+                            return;
                         binding.domainEditText.setText(contents[1]);
                         binding.searchRegexEditText.setText(contents[4]);
                         binding.contentRuleEditText.setText(contents[7]);
