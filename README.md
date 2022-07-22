@@ -1,2 +1,2 @@
 # WebPageSearchPurify
-![](test.png)
+![](test.png)![](rules.png)
