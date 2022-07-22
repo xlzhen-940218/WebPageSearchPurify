@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WebPageSearchPurify</string>
+    <string name="settings_rule">Settings rule</string>
+    <string name="select_search_rule">Select search rule</string>
+    <string name="please_input_domain">Please input domain</string>
+    <string name="search_rule_content_regex">(Search Content)</string>
+    <string name="please_input_search_rule">Please input search rule,E.g google is :search?q=(Search Content)</string>
+    <string name="domain">Domain</string>
+    <string name="search_rule">Search rule</string>
+    <string name="content_rule">Content rule</string>
+    <string name="please_input_content_rule">Please input content rule,This requires a certain knowledge
+        of web page development, replace the keyword with (data_[type]), type as title, description,
+        url, img. Corresponding to title, description, open link, picture</string>
+    <string name="add_to_rules">Add to rules</string>
+    <string name="setting_success">Setting success</string>
+    <string name="setting_normal">Setting normal</string>
+    <string name="import_rule">Import rule</string>
+    <string name="dont_select_file">you did not select a file!</string>
+    <string name="share_rule">Share rule</string>
+    <string name="import_rule_file">Import rule file</string>
+    <string name="import_rule_text">Import rule text(Get clipboard content)</string>
+</resources>

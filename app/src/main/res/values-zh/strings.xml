@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">网页搜索净化器</string>
+    <string name="settings_rule">设置规则</string>
+    <string name="select_search_rule">选择搜索规则</string>
+    <string name="please_input_domain">请输入域名</string>
+    <string name="search_rule_content_regex">(搜索内容)</string>
+    <string name="please_input_search_rule">请输入搜索规则，例如百度则是:s?wd=(搜索内容)</string>
+    <string name="domain">域名</string>
+    <string name="search_rule">搜索规则</string>
+    <string name="content_rule">内容规则</string>
+    <string name="please_input_content_rule">请输入内容规则,这需要一定的网页开发知识，把关键字替换为(data_[type]),type 为 title,description,url,img。分别对应标题，描述，打开的链接，图片</string>
+    <string name="add_to_rules">添加到规则</string>
+    <string name="setting_success">设置成功</string>
+    <string name="setting_normal">设为默认</string>
+    <string name="import_rule">导入规则</string>
+    <string name="dont_select_file">你没有选择文件！</string>
+    <string name="share_rule">分享规则</string>
+    <string name="import_rule_file">导入规则文件</string>
+    <string name="import_rule_text">导入规则文本(获取剪贴板内容)</string>
+</resources>
